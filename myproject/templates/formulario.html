@@ -1,0 +1,16 @@
+<html><body>
+<form method="post">
+{% csrf_token %}
+  <table>
+    <tr>
+      <td>Nombre</td>
+      <td><input type="text" name="nombre"/></td>
+    </tr>
+    <tr>
+      <td>Pagina</td>
+      <td><input type="text" page="pagina"/></td>
+    </tr>
+  </table>
+  <input type="submit" value="Enviar">
+</form>
+</body></html>
